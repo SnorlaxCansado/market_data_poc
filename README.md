@@ -43,6 +43,10 @@ This Proof of Concept (PoC) demonstrates a simple pipeline for fetching stock ma
 
 5. **Logs**: Pipeline run logs can be found in the `logs/` folder.
 
+## API Configuration
+
+This project uses the Marketstack API to fetch stock market data. You will need to obtain a free API key from [Marketstack](https://marketstack.com/). Please sign up and configure the `API_KEY` in the `config/config.py` file to use your own key.
+
 ## Future Work
 - Further optimizations in data transformation and storage.
 - Integration with cloud services for scaling.
